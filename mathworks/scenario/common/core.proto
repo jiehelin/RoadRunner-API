@@ -1,0 +1,16 @@
+// Copyright (c) 2021, The MathWorks, Inc.
+
+syntax = "proto3";
+
+package mathworks.scenario.common;
+
+//
+// Common color definition
+//
+message ColorRGBA
+{
+  uint32 r = 1;
+  uint32 g = 2;
+  uint32 b = 3;
+  uint32 a = 4;
+}
